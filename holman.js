@@ -38,13 +38,24 @@ console.groupEnd();
 console.log("Círculos");
 
 //Radio
+const radioCirculo = 4;
+console.log("El radio del círculo mide: " + radioCirculo + " cm");
 
 //Diámetro
+const diametroCirculo = radioCirculo * 2;
+console.log("El diametro del círculo mide: " + diametroCirculo + " cm");
 
 //PI
+const PI = Math.PI.toFixed(2);
+console.log("PI es: " + PI + " cm")
+
 
 //Circunferencia
+const perimetroCirculo = diametroCirculo * PI;
+console.log("El perímetro del círculo mide: " + perimetroCirculo + " cm");
 
 //Área
+const areaCirculo = (radioCirculo * radioCirculo) * PI;
+console.log("El área del círculo mide: " + areaCirculo + " cm2");
 
 console.groupEnd();
